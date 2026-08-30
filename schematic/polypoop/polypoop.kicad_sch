@@ -1,0 +1,673 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "97d719ed-7cbf-4360-bc6c-e30d97c04914")
+	(paper "A4")
+	(lib_symbols)
+	(junction
+		(at 114.3 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1576457d-9678-49fa-8448-06b6581e57cf")
+	)
+	(junction
+		(at 146.05 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e3a04be8-6001-4d18-a350-c2c962d918d3")
+	)
+	(wire
+		(pts
+			(xy 127 44.45) (xy 146.05 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cd784c6-8943-4597-a60c-1cf97a94def4")
+	)
+	(wire
+		(pts
+			(xy 63.5 67.31) (xy 69.85 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12e64ae9-1482-465a-856b-a5e4ceb85c3f")
+	)
+	(wire
+		(pts
+			(xy 63.5 80.01) (xy 82.55 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f379939-942a-4eaa-893a-83d2fac588e2")
+	)
+	(wire
+		(pts
+			(xy 114.3 76.2) (xy 114.3 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27ee07af-9eaf-4a5b-8f5b-5e3d84dbacc9")
+	)
+	(wire
+		(pts
+			(xy 133.35 76.2) (xy 114.3 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ce55062-6f61-49ee-86af-ea793626081f")
+	)
+	(wire
+		(pts
+			(xy 114.3 76.2) (xy 114.3 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4394bb07-65cb-460a-bf7b-991f9a8bbaaa")
+	)
+	(wire
+		(pts
+			(xy 69.85 67.31) (xy 69.85 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4677fd7c-7db9-4061-aa36-6a1c318d12ea")
+	)
+	(wire
+		(pts
+			(xy 146.05 76.2) (xy 165.1 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "473397e6-ede9-4ae7-b791-278dd7a1bbc8")
+	)
+	(wire
+		(pts
+			(xy 82.55 101.6) (xy 88.9 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f165fc3-1d0b-4ac2-abd3-93c8dda405b5")
+	)
+	(wire
+		(pts
+			(xy 127 107.95) (xy 146.05 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53da44e8-1c5d-4650-85d2-2d784e3586a9")
+	)
+	(wire
+		(pts
+			(xy 82.55 50.8) (xy 82.55 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "735956b8-bd23-42b5-acf9-c1ef116c1e18")
+	)
+	(wire
+		(pts
+			(xy 69.85 38.1) (xy 88.9 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b11dc64-3370-4d44-bda1-99bbfe812fac")
+	)
+	(wire
+		(pts
+			(xy 82.55 72.39) (xy 63.5 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b870ba1-dff4-4835-8b15-a949b327dd0f")
+	)
+	(wire
+		(pts
+			(xy 63.5 85.09) (xy 69.85 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85925fba-c8b5-462b-8de6-765f3b85a05e")
+	)
+	(wire
+		(pts
+			(xy 69.85 85.09) (xy 69.85 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "956c4088-3051-46c5-aa78-af1689ae65eb")
+	)
+	(wire
+		(pts
+			(xy 152.4 139.7) (xy 133.35 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7a11474-228b-4b7c-8d43-90b95f32819e")
+	)
+	(wire
+		(pts
+			(xy 69.85 114.3) (xy 88.9 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a88c08c7-b61c-4db5-87a5-409b89106ea4")
+	)
+	(wire
+		(pts
+			(xy 146.05 44.45) (xy 146.05 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b45a997b-04ec-4a92-97b3-6e0ae0366513")
+	)
+	(wire
+		(pts
+			(xy 88.9 50.8) (xy 82.55 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfce0a47-465a-4210-a3db-71ad26087245")
+	)
+	(wire
+		(pts
+			(xy 146.05 107.95) (xy 146.05 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecaaaae6-20bd-42b9-97d9-ebfd880a6acc")
+	)
+	(wire
+		(pts
+			(xy 82.55 80.01) (xy 82.55 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee1e7495-889f-40c4-9b69-4cac40516101")
+	)
+	(wire
+		(pts
+			(xy 133.35 139.7) (xy 133.35 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0b82c7b-a2c7-4550-a482-be0d470a25fc")
+	)
+	(sheet
+		(at 88.9 25.4)
+		(size 38.1 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "2d5cc3af-0b17-4484-ae84-7091bfb170d0")
+		(property "Sheetname" "Osc 1, 2"
+			(at 88.9 24.6884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "osc-1-2.kicad_sch"
+			(at 88.9 64.0846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CV" input
+			(at 114.3 63.5 270)
+			(uuid "6ed48e06-85b0-4953-966c-3f2e398f044c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUT" output
+			(at 127 44.45 0)
+			(uuid "073a9450-dfb8-4419-a13d-e12e49bc241d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{RST_1}" input
+			(at 88.9 38.1 180)
+			(uuid "541873ef-a646-463d-aeb5-9874badb1b06")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{RST_2}" input
+			(at 88.9 50.8 180)
+			(uuid "ace79de3-3a2f-4ecf-a3ee-03fcda2a390e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "polypoop"
+				(path "/97d719ed-7cbf-4360-bc6c-e30d97c04914"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 88.9 88.9)
+		(size 38.1 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "42696518-a4ab-4ff4-be11-078151753c1d")
+		(property "Sheetname" "Osc 3, 4"
+			(at 88.9 88.1884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "osc-3-4.kicad_sch"
+			(at 88.9 127.5846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CV" input
+			(at 114.3 88.9 90)
+			(uuid "b74a1371-bd18-4138-a97e-d8771dfcf33c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT" output
+			(at 127 107.95 0)
+			(uuid "40fa2431-2bd1-4718-9734-2ff24923769a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{RST_3}" input
+			(at 88.9 101.6 180)
+			(uuid "72130547-f096-49b9-a876-3c9aad91b099")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{RST_4}" input
+			(at 88.9 114.3 180)
+			(uuid "0d9e2dea-1fc8-4147-8ad9-2095c420b0db")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "polypoop"
+				(path "/97d719ed-7cbf-4360-bc6c-e30d97c04914"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 165.1 67.31)
+		(size 24.13 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "56897790-17f1-41ed-990f-759172e5b1ab")
+		(property "Sheetname" "Output Amplifier"
+			(at 165.1 66.5984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "output-amplifier.kicad_sch"
+			(at 165.1 85.6746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "IN" input
+			(at 165.1 76.2 180)
+			(uuid "dfbea9fa-3f65-421b-a44a-c1e792948d00")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "polypoop"
+				(path "/97d719ed-7cbf-4360-bc6c-e30d97c04914"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 38.1 63.5)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "65d6dc1a-db38-4d81-8eba-c5ee3101a12e")
+		(property "Sheetname" "Control Switches"
+			(at 38.1 62.7884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "control-switches.kicad_sch"
+			(at 38.1 89.4846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 38.1 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "~{RST1}" output
+			(at 63.5 67.31 0)
+			(uuid "db18d273-2e16-444f-844a-8ded8682d7e7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{RST2}" output
+			(at 63.5 72.39 0)
+			(uuid "14cf53bf-4c41-493f-9423-1359a694f332")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{RST3}" output
+			(at 63.5 80.01 0)
+			(uuid "cb0d17dc-a47e-4269-991f-d8a85b46e304")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{RST4}" output
+			(at 63.5 85.09 0)
+			(uuid "d864ab14-2995-4c62-8024-92fe1cdfe12e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "polypoop"
+				(path "/97d719ed-7cbf-4360-bc6c-e30d97c04914"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 152.4 127)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "b8fef45c-780a-41db-9d80-66f420a1a726")
+		(property "Sheetname" "Pitch Control"
+			(at 152.4 126.2884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pitch-control.kicad_sch"
+			(at 152.4 152.9846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "PITCH_CV" output
+			(at 152.4 139.7 180)
+			(uuid "f642ceb5-6b42-4078-a385-5ddf24476784")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "polypoop"
+				(path "/97d719ed-7cbf-4360-bc6c-e30d97c04914"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 215.9 25.4)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "f82f34d7-bad7-49fe-8aba-25e6af576990")
+		(property "Sheetname" "Power"
+			(at 215.9 24.6884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 215.9 51.3846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "polypoop"
+				(path "/97d719ed-7cbf-4360-bc6c-e30d97c04914"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

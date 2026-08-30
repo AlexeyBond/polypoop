@@ -1,0 +1,8 @@
+schematic/**/*-backups/*.zip
+schematic/**/*.lck
+
+*.swp
+
+3d/*
+!3d/*.FCStd
+
