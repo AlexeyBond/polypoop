@@ -4,6 +4,9 @@
 	(generator_version "10.0")
 	(uuid "b3458729-fb0a-467d-ae88-ffc1addfdd35")
 	(paper "A4")
+	(title_block
+		(title "Регулятор тона")
+	)
 	(lib_symbols
 		(symbol "Amplifier_Operational:TL074"
 			(pin_names
@@ -1347,6 +1350,23 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Подстроечники RV15 и RV16 определяют\nверхний и нижний предел регулировки тона.\n\nВ верхнее и нижнее положение можно поменять местами\nсоответствующей настройкой этих подстроечников."
+		(exclude_from_sim no)
+		(at 82.804 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "02c73c7e-f65c-4457-961b-4847d1dcfa61")
+	)
+	(junction
+		(at 101.6 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "71758dc6-a713-45f8-873f-ffc2d99c2c1f")
+	)
 	(junction
 		(at 146.05 101.6)
 		(diameter 0)
@@ -1358,6 +1378,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ad682d18-d713-4627-a565-ebe498a8b4e7")
+	)
+	(junction
+		(at 76.2 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fd825862-58e2-4e94-a495-72e709682814")
 	)
 	(wire
 		(pts
@@ -1381,6 +1407,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 110.49) (xy 101.6 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09bef8ad-2478-48c5-9543-0a914b9d9346")
+	)
+	(wire
+		(pts
 			(xy 130.81 101.6) (xy 146.05 101.6)
 		)
 		(stroke
@@ -1401,16 +1437,6 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 92.71) (xy 101.6 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25f2924d-c203-46c1-bcfc-6b354951add5")
-	)
-	(wire
-		(pts
 			(xy 184.15 116.84) (xy 184.15 104.14)
 		)
 		(stroke
@@ -1418,6 +1444,26 @@
 			(type default)
 		)
 		(uuid "3882c8f3-caee-4e6d-af1d-5e593aecc99b")
+	)
+	(wire
+		(pts
+			(xy 76.2 82.55) (xy 76.2 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "500d3287-ef57-4fd7-a0c5-a0f4a9ec7279")
+	)
+	(wire
+		(pts
+			(xy 76.2 120.65) (xy 101.6 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bd8c2c6-59c3-41c0-a526-498ea0f111bb")
 	)
 	(wire
 		(pts
@@ -1431,7 +1477,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 76.2) (xy 101.6 85.09)
+			(xy 76.2 76.2) (xy 76.2 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1451,6 +1497,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 82.55) (xy 76.2 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91ed4a2e-029a-4908-9398-dc39d32e64df")
+	)
+	(wire
+		(pts
 			(xy 146.05 101.6) (xy 163.83 101.6)
 		)
 		(stroke
@@ -1461,7 +1517,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 88.9) (xy 127 88.9)
+			(xy 80.01 88.9) (xy 127 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1511,7 +1567,27 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 118.11) (xy 101.6 127)
+			(xy 101.6 120.65) (xy 101.6 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8c56d55-6835-4ebd-bf46-e80cb0716ae6")
+	)
+	(wire
+		(pts
+			(xy 76.2 92.71) (xy 76.2 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd61b774-ffcf-4d56-9793-844c955188aa")
+	)
+	(wire
+		(pts
+			(xy 101.6 118.11) (xy 101.6 120.65)
 		)
 		(stroke
 			(width 0)
@@ -1542,7 +1618,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 101.6 76.2 0)
+		(at 76.2 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1553,7 +1629,7 @@
 		(fields_autoplaced yes)
 		(uuid "15dd8cc4-43fd-43b8-962c-a995c0c91a8d")
 		(property "Reference" "#PWR062"
-			(at 101.6 80.01 0)
+			(at 76.2 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1564,7 +1640,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 101.6 71.12 0)
+			(at 76.2 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1574,7 +1650,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 76.2 0)
+			(at 76.2 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1585,7 +1661,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 76.2 0)
+			(at 76.2 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1596,7 +1672,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 101.6 76.2 0)
+			(at 76.2 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1620,7 +1696,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Potentiometer_Trim_US")
-		(at 101.6 88.9 0)
+		(at 76.2 88.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1631,7 +1707,7 @@
 		(fields_autoplaced yes)
 		(uuid "3bbf13e3-c549-4795-868b-26f31f3fde79")
 		(property "Reference" "RV15"
-			(at 99.06 87.6299 0)
+			(at 73.66 87.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1642,7 +1718,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 99.06 90.1699 0)
+			(at 73.66 90.1699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1653,7 +1729,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 88.9 0)
+			(at 76.2 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1664,7 +1740,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 88.9 0)
+			(at 76.2 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1675,7 +1751,7 @@
 			)
 		)
 		(property "Description" "Trim-potentiometer, US symbol"
-			(at 101.6 88.9 0)
+			(at 76.2 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1686,7 +1762,7 @@
 			)
 		)
 		(property "Sim.Device" "R"
-			(at 101.6 88.9 0)
+			(at 76.2 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1697,7 +1773,7 @@
 			)
 		)
 		(property "Sim.Type" "POT"
-			(at 101.6 88.9 0)
+			(at 76.2 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1708,7 +1784,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=r0 2=wiper 3=r1"
-			(at 101.6 88.9 0)
+			(at 76.2 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

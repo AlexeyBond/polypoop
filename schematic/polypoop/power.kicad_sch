@@ -4,6 +4,9 @@
 	(generator_version "10.0")
 	(uuid "6e8139ce-bb2e-45cb-8920-929e45ac9712")
 	(paper "A4")
+	(title_block
+		(title "Цепи питания")
+	)
 	(lib_symbols
 		(symbol "Amplifier_Operational:TL074"
 			(pin_names
@@ -2288,6 +2291,38 @@
 			)
 		)
 		(uuid "016359cf-b349-464c-bd7b-85d8639e7d61")
+	)
+	(text "Напряжение в 5V с USB-порта сначала преобразуется в\nповышенное напряжение, около 15V, затем стабилизируется\nлинейным стабилизатором до уровня 12V.\n\nЭто позволяет устройству работать стабильно\nпри колебаниях напряжения на входе.\nЛинейный стабилизатор более жёстко фиксирует напряжение\nпитания и подавляет часть высокочастотных пульсаций от\nимпульсного преобразователя."
+		(exclude_from_sim no)
+		(at 113.792 30.734 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2786275b-c65e-469f-8235-7e3672b8f36b")
+	)
+	(text "V_{Ref} - псевдо-нулевая точка между землёй и\nнапряжением питания - необходима для работы\nусилителей при однополярном питании."
+		(exclude_from_sim no)
+		(at 175.514 141.224 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7167fafc-2253-4fa1-a2aa-2014b6a94644")
+	)
+	(text "Переключатель питания\n-\nчасть регулятора громкости"
+		(exclude_from_sim no)
+		(at 93.218 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c49ab562-09c1-40bc-afb2-85678f1f915b")
 	)
 	(junction
 		(at 228.6 95.25)
@@ -4945,34 +4980,34 @@
 			(uuid "80de0ce0-f821-412c-8004-cc8969ae9a30")
 		)
 		(pin "12"
-			(uuid "b4fcd582-f7a0-48af-b3c1-2e329ee9d01d")
+			(uuid "b4fcd582-f7a0-48af-b3c1-2e329ee9d01e")
 		)
 		(pin "2"
-			(uuid "e2fb7339-d061-4bcb-92e7-b210fbf8da65")
+			(uuid "e2fb7339-d061-4bcb-92e7-b210fbf8da66")
 		)
 		(pin "8"
 			(uuid "83e6bce7-9b26-48ba-8d3a-ac62d226a689")
 		)
 		(pin "6"
-			(uuid "1e2c09c6-7a8e-45c5-9fe8-b464dd80ec7c")
+			(uuid "1e2c09c6-7a8e-45c5-9fe8-b464dd80ec7d")
 		)
 		(pin "7"
-			(uuid "0bfe65b2-bbcf-412a-9aaa-85d2f23bc038")
+			(uuid "0bfe65b2-bbcf-412a-9aaa-85d2f23bc039")
 		)
 		(pin "1"
-			(uuid "2c3c2879-53fd-4a54-a3cc-478d21bad898")
+			(uuid "2c3c2879-53fd-4a54-a3cc-478d21bad899")
 		)
 		(pin "13"
-			(uuid "bfbdfb79-1590-4a43-944d-972a47ab750f")
+			(uuid "bfbdfb79-1590-4a43-944d-972a47ab7510")
 		)
 		(pin "5"
-			(uuid "6f8285f1-969a-4a24-a0a5-d0365da2a62c")
+			(uuid "6f8285f1-969a-4a24-a0a5-d0365da2a62d")
 		)
 		(pin "14"
-			(uuid "21fe9862-ed54-49fc-a760-f71b7ddbc86b")
+			(uuid "21fe9862-ed54-49fc-a760-f71b7ddbc86c")
 		)
 		(pin "3"
-			(uuid "26c65222-5692-4eea-9f34-25b18f891f41")
+			(uuid "26c65222-5692-4eea-9f34-25b18f891f42")
 		)
 		(pin "11"
 			(uuid "3dfa36b7-4f48-431d-b128-530099052493")
